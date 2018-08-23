@@ -4,7 +4,7 @@ import {
   REFRESH_PROJECTS,
   SELECT_PROJECT,
   ADD_PROJECT,
-} from '../../actions';
+} from '../actions';
 
 import reducer, {
   initialState as projectsInitialState,
@@ -12,7 +12,7 @@ import reducer, {
   getSelectedProjectId,
   getInternalProjectById,
   getProjectsArray,
-} from '../projects.reducer';
+} from './projects.reducer';
 
 describe('Projects Reducer', () => {
   describe(ADD_PROJECT, () => {
